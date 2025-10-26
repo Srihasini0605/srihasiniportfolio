@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Munagala Sri Hasini Reddy | Java Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munagala Sri Hasini Reddy | Java Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- Navigation -->
 <header>
-    <div class="logo"><strong>Munagala Sri Hasini Reddy</strong></div>
+    <div class="logo">Munagala Sri Hasini Reddy</div>
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -21,79 +22,81 @@
     </nav>
 </header>
 
+<!-- Home Section -->
 <section id="home">
-    <h1>Munagala Sri Hasini Reddy</h1>
-    <p>Java Developer | Cloud & DSA Enthusiast</p>
-    <a href="#projects" class="button">View Projects</a>
+    <div class="hero">
+        <h1>Munagala Sri Hasini Reddy</h1>
+        <p>Java Developer | Cloud & DSA Enthusiast</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
 </section>
 
-<section id="about" class="container">
+<!-- About Section -->
+<section id="about">
     <h2>About Me</h2>
-    <p>Driven by curiosity and continuous learning, I am an adaptable professional passionate about leveraging technology to solve real-world problems. With hands-on experience in AI, Machine Learning, Web Development, and cloud concepts, I am currently a Trainee at Infosys, focused on gaining practical insights in software development and contributing to meaningful projects.</p>
+    <p>Curiosity and consistency drive my learning journey. I am passionate about solving problems through technology, with hands-on experience in AI, Machine Learning, and Web Development. Currently a Trainee at Infosys.</p>
 </section>
 
-<section id="skills" class="container">
+<!-- Skills Section -->
+<section id="skills">
     <h2>Skills</h2>
-    <div class="skill-category">
-        <h3>Programming Languages</h3>
-        <p>Java, Python, C, PHP, SQL</p>
-    </div>
-    <div class="skill-category">
-        <h3>Web Technologies</h3>
-        <p>HTML, CSS, JavaScript</p>
-    </div>
-    <div class="skill-category">
-        <h3>Other Technical Skills</h3>
-        <p>DBMS | Machine Learning | Cloud Computing</p>
-    </div>
-    <div class="skill-category">
-        <h3>Soft Skills</h3>
-        <p>Leadership, Event Management, Public Speaking, Time Management, Teamwork</p>
+    <div class="skills-grid">
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">C</div>
+        <div class="skill">PHP</div>
+        <div class="skill">SQL</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">DBMS</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Cloud Computing</div>
     </div>
 </section>
 
-<section id="projects" class="container">
+<!-- Projects Section -->
+<section id="projects">
     <h2>Projects</h2>
-    <div class="project">
+    <div class="project-card">
         <h3>QR Code Generator</h3>
-        <p>Python-based web tool to generate QR codes from user input and save them as images. Supports dynamic text and URL input, providing quick and accurate QR code generation.</p>
-        <a href="https://github.com/Srihasini0605/qr_code_generator">View on GitHub</a>
+        <p>Python web tool to generate QR codes instantly. Hosted on GitHub.</p>
+        <a href="https://github.com/Srihasini0605/QRCode-Generator" target="_blank">View on GitHub</a>
     </div>
-    <div class="project">
+    <div class="project-card">
         <h3>AI Desktop Assistant – JARVIS</h3>
-        <p>Voice-activated desktop assistant built in Python to automate tasks like opening apps, web searches, sending emails, and reminders. Integrates speech recognition, text-to-speech, and task automation.</p>
-        <a href="https://github.com/Srihasini0605/jarvis_voice_assistant">View on GitHub</a>
+        <p>Voice-activated desktop assistant automating tasks efficiently.</p>
+        <a href="https://github.com/Srihasini0605/AI-Desktop-Assistant" target="_blank">View on GitHub</a>
     </div>
-    <div class="project">
+    <div class="project-card">
         <h3>Book Recommendation System</h3>
-        <p>Personalized book recommendation engine using Python, Machine Learning, and Streamlit. Leverages user preferences and metadata to suggest relevant books with high accuracy.</p>
-        <a href="https://github.com/Srihasini0605/book_recommendation_system">View on GitHub</a>
+        <p>NLP-based system recommending books using metadata and user input.</p>
+        <a href="https://github.com/Srihasini0605/Book-Recommendation-System" target="_blank">View on GitHub</a>
     </div>
-    <div class="project">
-        <h3>Real-Time Vehicle Detection (YOLOv7)</h3>
-        <p>Deep learning system for detecting and counting vehicles in real-time. Utilizes YOLOv7 architecture and OpenCV for traffic monitoring and analysis. Work in progress for integration into intelligent traffic dashboards.</p>
-        <a href="https://github.com/Srihasini0605/Real-Time-Vehicle-Detection">View on GitHub</a>
+    <div class="project-card">
+        <h3>Real-Time Vehicle Detection</h3>
+        <p>Deep learning system using YOLOv7 for traffic monitoring (work in progress).</p>
+        <a href="https://github.com/Srihasini0605/Real-Time-Vehicle-Detection" target="_blank">View on GitHub</a>
     </div>
 </section>
 
-<section id="experience" class="container">
+<!-- Experience Section -->
+<section id="experience">
     <h2>Experience</h2>
-    <div class="job">
-        <h3>Systems Engineer Trainee — Infosys</h3>
-        <p>August 11, 2025 – Present</p>
-        <p>Professional training in Cloud Infrastructure Services (CIS), gaining hands-on exposure to Java, DSA, system design, and cloud fundamentals. Engaged in practical learning to contribute to software development projects effectively.</p>
-    </div>
+    <p>Systems Engineer Trainee — Infosys (Aug 2025 – Present)</p>
 </section>
 
-<section id="contact" class="container">
+<!-- Contact Section -->
+<section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:srihasinimunagala@gmail.com">srihasinimunagala@gmail.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/srihasini" target="_blank">linkedin.com/in/srihasini</a></p>
     <p>GitHub: <a href="https://github.com/Srihasini0605" target="_blank">github.com/Srihasini0605</a></p>
 </section>
 
+<!-- Footer -->
 <footer>
-    © 2025 Munagala Sri Hasini Reddy | Crafted with ❤️ & HTML/CSS
+    © 2025 Munagala Sri Hasini Reddy
 </footer>
 
 <script src="script.js"></script>
